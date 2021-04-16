@@ -35,6 +35,9 @@ li{
 .mL1{
     margin-left: 1rem;
 }
+.mR1{
+    margin-right: 1rem;
+}
 .mR2{
     margin-right: 2rem;
 }
@@ -322,6 +325,9 @@ header{
     cursor: pointer;
     box-shadow: 0px 0px 5px 1px #ccc;
 }
+#showMore:hover{
+    box-shadow: 0px 0px 5px 1px rgb(138, 224, 138);
+}
 .trustSection{
     display: flex;
     flex-direction: column;
@@ -406,6 +412,7 @@ header{
     width: 100%;
 }
 @media (max-width:900px) {
+    
     h1{
         font-size: 1.8rem;
         letter-spacing: .2rem;
@@ -453,9 +460,11 @@ header{
     }
     .mB4{
         margin-bottom: 1rem;
+
     }
     .mB1{
         margin-right: 0.5rem;
+        margin-left: 0.5rem;
     }
     #productListing{
         grid-template-columns: repeat(2,1fr);
@@ -470,9 +479,6 @@ header{
     }
     .hoverproduct:hover div .productDecrip{
         border-right: none;
-    }
-    .hoverproduct:hover h6{
-        display: none; 
     }
     .hoverproduct:hover .buyNow{
         display: none;
